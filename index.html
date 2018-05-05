@@ -249,8 +249,43 @@ desired effect
 
         <!-- Main content -->
         <section class="content container-fluid">
+
             <!-- Info boxes -->
             <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box" >
+                    <span class="info-box-icon bg-red"><i class="fa fa-warning"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Critical Issues</span>
+                        <span class="info-box-number">1</span>
+                        <a href="#" class="small-box-footer" data-toggle="modal" data-target="#modal-danger" >More info <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+
+
+            <!-- /.col -->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box" >
+                    <span class="info-box-icon bg-yellow"><i class="fa fa-warning"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text">Warnings</span>
+                        <span class="info-box-number">2</span>
+                        <a href="#" class="small-box-footer" data-toggle="modal" data-target="#modal-warning" >More info <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                    <!-- /.info-box-content -->
+                </div>
+                <!-- /.info-box -->
+            </div>
+            <!-- /.col -->
+            <!-- fix for small devices only -->
+            <div class="clearfix visible-sm-block"></div>
+
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="info-box">
                         <span class="info-box-icon bg-aqua"><i class="ion ion-ios-world"></i></span>
@@ -279,37 +314,8 @@ desired effect
                     <!-- /.info-box -->
                 </div>
 
-                <!-- fix for small devices only -->
-                <div class="clearfix visible-sm-block"></div>
-                <!-- /.col -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="info-box" >
-                        <span class="info-box-icon bg-yellow"><i class="fa fa-warning"></i></span>
 
-                        <div class="info-box-content">
-                            <span class="info-box-text">Warnings</span>
-                            <span class="info-box-number">2</span>
-                            <a href="#" class="small-box-footer" data-toggle="modal" data-target="#modal-warning" >More info <i class="fa fa-arrow-circle-right"></i></a>
-                        </div>
-                        <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                </div>
-                <!-- /.col -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="info-box" >
-                        <span class="info-box-icon bg-red"><i class="fa fa-warning"></i></span>
 
-                        <div class="info-box-content">
-                            <span class="info-box-text">Critical Issues</span>
-                            <span class="info-box-number">1</span>
-                            <a href="#" class="small-box-footer" data-toggle="modal" data-target="#modal-danger" >More info <i class="fa fa-arrow-circle-right"></i></a>
-                        </div>
-                        <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                </div>
-                <!-- /.col -->
             </div>
             <!-- /.row -->
             <div class="row">
@@ -323,22 +329,9 @@ desired effect
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
-                                    <th colspan="3"></th>
-                                    <th colspan="6">Expected Position</th>
-                                    <th colspan="6">Actual Position</th>
-                                    <th colspan="4"></th>
-                                </tr>
-                                <tr>
                                     <th>Name</th>
                                     <th>Int'l Designator</th>
                                     <th>Type</th>
-
-                                    <th>Apogee</th>
-                                    <th>Perigee</th>
-                                    <th>Inclination</th>
-                                    <th>Altitude</th>
-                                    <th>Velocity</th>
-                                    <th>Period</th>
 
                                     <th>Apogee</th>
                                     <th>Perigee</th>
@@ -363,12 +356,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>97.57 mi</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td style="background-color: #f26565;">20%</td>
@@ -378,12 +365,6 @@ desired effect
                                     <td>B FALCON 1 R/B</td>
                                     <td>2009-037B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>682 km</td>
                                     <td>617 km</td>
                                     <td>9.04°</td>
@@ -405,12 +386,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>208.13 min</td>
-                                    <td>10234 km</td>
-                                    <td>291 km</td>
-                                    <td>34.51°</td>
-                                    <td>5360.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>208.13 min</td>
                                     <td>88%</td>
                                     <td>65%</td>
                                     <td>90%</td>
@@ -425,12 +400,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>99.86 min</td>
-                                    <td>1199 km</td>
-                                    <td>319 km</td>
-                                    <td>80.97°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>99.86 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -446,12 +415,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>434.30 min</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -461,12 +424,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2014-046B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>25069 km</td>
                                     <td>183 km</td>
                                     <td>24.23°</td>
@@ -482,12 +439,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2015-023B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>30537 km</td>
-                                    <td>210 km</td>
-                                    <td>25.17°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>531.84 min</td>
                                     <td>30537 km</td>
                                     <td>210 km</td>
                                     <td>25.17°</td>
@@ -509,12 +460,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>769.57 min</td>
-                                    <td>42587 km</td>
-                                    <td>307 km</td>
-                                    <td>26.33°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>769.57 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -523,12 +468,6 @@ desired effect
                                     <td>DEMOSAT/FALCON 1</td>
                                     <td>2008-048A</td>
                                     <td>PAYLOAD</td>
-                                    <td>637 km</td>
-                                    <td>619 km</td>
-                                    <td>9.35°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.12 min</td>
                                     <td>637 km</td>
                                     <td>619 km</td>
                                     <td>9.35°</td>
@@ -550,12 +489,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>97.57 mi</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -569,12 +502,6 @@ desired effect
                                     <td>291 km</td>
                                     <td>34.51°</td>
                                     <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>208.13 min</td>
-                                    <td>10234 km</td>
-                                    <td>291 km</td>
-                                    <td>34.51°</td>
-                                    <td>5360.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>208.13 min</td>
                                     <td>88%</td>
@@ -591,12 +518,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>99.86 min</td>
-                                    <td>1199 km</td>
-                                    <td>319 km</td>
-                                    <td>80.97°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>99.86 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -612,12 +533,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>434.30 min</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -627,12 +542,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2014-046B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>25069 km</td>
                                     <td>183 km</td>
                                     <td>24.23°</td>
@@ -648,12 +557,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2015-023B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>30537 km</td>
-                                    <td>210 km</td>
-                                    <td>25.17°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>531.84 min</td>
                                     <td>30537 km</td>
                                     <td>210 km</td>
                                     <td>25.17°</td>
@@ -675,12 +578,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>769.57 min</td>
-                                    <td>42587 km</td>
-                                    <td>307 km</td>
-                                    <td>26.33°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>769.57 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -689,12 +586,6 @@ desired effect
                                     <td>DEMOSAT/FALCON 1</td>
                                     <td>2008-048A</td>
                                     <td>PAYLOAD</td>
-                                    <td>637 km</td>
-                                    <td>619 km</td>
-                                    <td>9.35°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.12 min</td>
                                     <td>637 km</td>
                                     <td>619 km</td>
                                     <td>9.35°</td>
@@ -716,12 +607,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>97.57 mi</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -735,12 +620,6 @@ desired effect
                                     <td>291 km</td>
                                     <td>34.51°</td>
                                     <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>208.13 min</td>
-                                    <td>10234 km</td>
-                                    <td>291 km</td>
-                                    <td>34.51°</td>
-                                    <td>5360.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>208.13 min</td>
                                     <td>88%</td>
@@ -757,12 +636,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>99.86 min</td>
-                                    <td>1199 km</td>
-                                    <td>319 km</td>
-                                    <td>80.97°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>99.86 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -778,12 +651,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>434.30 min</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -793,12 +660,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2014-046B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>25069 km</td>
                                     <td>183 km</td>
                                     <td>24.23°</td>
@@ -814,12 +675,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2015-023B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>30537 km</td>
-                                    <td>210 km</td>
-                                    <td>25.17°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>531.84 min</td>
                                     <td>30537 km</td>
                                     <td>210 km</td>
                                     <td>25.17°</td>
@@ -841,12 +696,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>769.57 min</td>
-                                    <td>42587 km</td>
-                                    <td>307 km</td>
-                                    <td>26.33°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>769.57 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -855,12 +704,6 @@ desired effect
                                     <td>DEMOSAT/FALCON 1</td>
                                     <td>2008-048A</td>
                                     <td>PAYLOAD</td>
-                                    <td>637 km</td>
-                                    <td>619 km</td>
-                                    <td>9.35°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.12 min</td>
                                     <td>637 km</td>
                                     <td>619 km</td>
                                     <td>9.35°</td>
@@ -882,12 +725,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>97.57 mi</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -901,12 +738,6 @@ desired effect
                                     <td>291 km</td>
                                     <td>34.51°</td>
                                     <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>208.13 min</td>
-                                    <td>10234 km</td>
-                                    <td>291 km</td>
-                                    <td>34.51°</td>
-                                    <td>5360.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>208.13 min</td>
                                     <td>88%</td>
@@ -923,12 +754,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>99.86 min</td>
-                                    <td>1199 km</td>
-                                    <td>319 km</td>
-                                    <td>80.97°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>99.86 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -944,12 +769,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>434.30 min</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -959,12 +778,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2014-046B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>25069 km</td>
                                     <td>183 km</td>
                                     <td>24.23°</td>
@@ -980,12 +793,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2015-023B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>30537 km</td>
-                                    <td>210 km</td>
-                                    <td>25.17°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>531.84 min</td>
                                     <td>30537 km</td>
                                     <td>210 km</td>
                                     <td>25.17°</td>
@@ -1007,12 +814,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>769.57 min</td>
-                                    <td>42587 km</td>
-                                    <td>307 km</td>
-                                    <td>26.33°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>769.57 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1021,12 +822,6 @@ desired effect
                                     <td>DEMOSAT/FALCON 1</td>
                                     <td>2008-048A</td>
                                     <td>PAYLOAD</td>
-                                    <td>637 km</td>
-                                    <td>619 km</td>
-                                    <td>9.35°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.12 min</td>
                                     <td>637 km</td>
                                     <td>619 km</td>
                                     <td>9.35°</td>
@@ -1048,12 +843,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>97.57 mi</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1067,12 +856,6 @@ desired effect
                                     <td>291 km</td>
                                     <td>34.51°</td>
                                     <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>208.13 min</td>
-                                    <td>10234 km</td>
-                                    <td>291 km</td>
-                                    <td>34.51°</td>
-                                    <td>5360.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>208.13 min</td>
                                     <td>88%</td>
@@ -1089,12 +872,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>99.86 min</td>
-                                    <td>1199 km</td>
-                                    <td>319 km</td>
-                                    <td>80.97°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>99.86 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1110,12 +887,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>434.30 min</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1125,12 +896,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2014-046B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>25069 km</td>
                                     <td>183 km</td>
                                     <td>24.23°</td>
@@ -1146,12 +911,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2015-023B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>30537 km</td>
-                                    <td>210 km</td>
-                                    <td>25.17°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>531.84 min</td>
                                     <td>30537 km</td>
                                     <td>210 km</td>
                                     <td>25.17°</td>
@@ -1173,12 +932,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>769.57 min</td>
-                                    <td>42587 km</td>
-                                    <td>307 km</td>
-                                    <td>26.33°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>769.57 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1187,12 +940,6 @@ desired effect
                                     <td>DEMOSAT/FALCON 1</td>
                                     <td>2008-048A</td>
                                     <td>PAYLOAD</td>
-                                    <td>637 km</td>
-                                    <td>619 km</td>
-                                    <td>9.35°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.12 min</td>
                                     <td>637 km</td>
                                     <td>619 km</td>
                                     <td>9.35°</td>
@@ -1214,12 +961,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>97.57 mi</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1233,12 +974,6 @@ desired effect
                                     <td>291 km</td>
                                     <td>34.51°</td>
                                     <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>208.13 min</td>
-                                    <td>10234 km</td>
-                                    <td>291 km</td>
-                                    <td>34.51°</td>
-                                    <td>5360.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>208.13 min</td>
                                     <td>88%</td>
@@ -1255,12 +990,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>99.86 min</td>
-                                    <td>1199 km</td>
-                                    <td>319 km</td>
-                                    <td>80.97°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>99.86 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1276,12 +1005,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>434.30 min</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1291,12 +1014,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2014-046B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>25069 km</td>
                                     <td>183 km</td>
                                     <td>24.23°</td>
@@ -1312,12 +1029,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2015-023B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>30537 km</td>
-                                    <td>210 km</td>
-                                    <td>25.17°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>531.84 min</td>
                                     <td>30537 km</td>
                                     <td>210 km</td>
                                     <td>25.17°</td>
@@ -1339,12 +1050,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>769.57 min</td>
-                                    <td>42587 km</td>
-                                    <td>307 km</td>
-                                    <td>26.33°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>769.57 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1353,12 +1058,6 @@ desired effect
                                     <td>DEMOSAT/FALCON 1</td>
                                     <td>2008-048A</td>
                                     <td>PAYLOAD</td>
-                                    <td>637 km</td>
-                                    <td>619 km</td>
-                                    <td>9.35°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.12 min</td>
                                     <td>637 km</td>
                                     <td>619 km</td>
                                     <td>9.35°</td>
@@ -1380,12 +1079,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>97.57 mi</td>
-                                    <td>682 km</td>
-                                    <td>617 km</td>
-                                    <td>9.04°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>97.57 mi</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1399,12 +1092,6 @@ desired effect
                                     <td>291 km</td>
                                     <td>34.51°</td>
                                     <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>208.13 min</td>
-                                    <td>10234 km</td>
-                                    <td>291 km</td>
-                                    <td>34.51°</td>
-                                    <td>5360.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>208.13 min</td>
                                     <td>88%</td>
@@ -1421,12 +1108,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>99.86 min</td>
-                                    <td>1199 km</td>
-                                    <td>319 km</td>
-                                    <td>80.97°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>99.86 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1442,12 +1123,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>434.30 min</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1457,12 +1132,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2014-046B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>25069 km</td>
-                                    <td>183 km</td>
-                                    <td>24.23°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>434.30 min</td>
                                     <td>25069 km</td>
                                     <td>183 km</td>
                                     <td>24.23°</td>
@@ -1484,12 +1153,6 @@ desired effect
                                     <td>5460.15 km</td>
                                     <td>6.81 km/s</td>
                                     <td>531.84 min</td>
-                                    <td>30537 km</td>
-                                    <td>210 km</td>
-                                    <td>25.17°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>531.84 min</td>
                                     <td>88%</td>
                                     <td>70%</td>
                                     <td>90%</td>
@@ -1499,12 +1162,6 @@ desired effect
                                     <td>FALCON 9 R/B</td>
                                     <td>2017-041B</td>
                                     <td>ROCKET BODY</td>
-                                    <td>42587 km</td>
-                                    <td>307 km</td>
-                                    <td>26.33°</td>
-                                    <td>5460.15 km</td>
-                                    <td>6.81 km/s</td>
-                                    <td>769.57 min</td>
                                     <td>42587 km</td>
                                     <td>307 km</td>
                                     <td>26.33°</td>
